@@ -50,7 +50,7 @@ class Employee:
             employee_string += ' and receives a bonus commission of '
             employee_string += str(self.args[index_to_use])
         elif self.commission == 'c': #contract comission
-            employee_string += ' and recieves a commission for '
+            employee_string += ' and receives a commission for '
             employee_string += str(self.args[index_to_use])
             index_to_use += 1
             employee_string += ' contract(s) at '
